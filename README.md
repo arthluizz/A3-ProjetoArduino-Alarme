@@ -45,24 +45,26 @@ O sistema também conta com um **sensor PIR** para detecção de movimento, **LE
 | **Buzzer** | Alerta sonoro | 24 |
 
 ## ⚡ Funcionamento do Sistema
-
-1. **Inicialização:**  
+1. **Baixe ou clone este repositório**
+   Na IDE Arduino vá em "Abrir" e selecione o arquivo que está dentro da pasta "Codigo"
+   
+2. **Inicialização:**  
    Ao ligar o Arduino, o sistema inicia **desarmado** (LED verde aceso). O monitor serial exibirá uma mensagem com instruções iniciais.
 
-2. **Armar ou desarmar com senha:**  
+3. **Armar ou desarmar com senha:**  
    - Digite a senha (padrão: `1245`)  
    - Pressione `#` para confirmar  
    - Use `*` para limpar a digitação atual  
 
-3. **Armar ou desarmar com RFID:**  
+4. **Armar ou desarmar com RFID:**  
    - Aproxime um **cartão RFID autorizado** do leitor RC522  
    - O sistema alterna automaticamente entre armado e desarmado  
 
-4. **Alarme ativado:**  
+5. **Alarme ativado:**  
    - Quando o sistema está armado e o **PIR** detecta movimento, o buzzer é acionado e o LED vermelho pisca continuamente  
    - O alarme para apenas quando o sistema é desarmado novamente  
 
-5. **Erro de autenticação:**  
+6. **Erro de autenticação:**  
    - Caso a senha ou o cartão não sejam válidos, o buzzer emite **dois bipes curtos** para indicar falha  
 
 ## 🔧 Personalização
