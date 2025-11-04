@@ -1,7 +1,5 @@
 # A3-ProjetoArduino-Alarme
 
-# 🔐 Sistema de Alarme com Teclado e RFID RC522 (Arduino Mega)
-
 Este projeto implementa um **sistema de segurança inteligente** baseado em **Arduino Mega 2560**, que permite armar e desarmar o alarme através de uma **senha numérica** (usando teclado matricial 4x4) ou de um **cartão RFID autorizado** (módulo RC522).  
 O sistema também conta com um **sensor PIR** para detecção de movimento, **LEDs indicadores** de estado e um **buzzer** para alarmes sonoros.
 
